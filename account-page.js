@@ -1,0 +1,1 @@
+async function init(){let u=await userRequired();if(!u)return;document.querySelector("#header").innerHTML=header(u.email);document.querySelector("#email").textContent=u.email||"Conta autenticada";document.querySelector("#logout").onclick=signout}init().catch(console.error);
