@@ -1,2 +1,2 @@
 // Use somente a chave pública anon/publishable. Nunca coloque service_role aqui.
-window.NEKOPLAY_CONFIG={SUPABASE_URL:"https://nbvekoygsnqrkwfjtmyc.supabase.co:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5idmVrb3lnc25xcmt3Zmp0bXljIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE1MTU1MzYsImV4cCI6MjEwNzA5MTUzNn0.eJdLw8qH0DRqjidz514V7KKo5RZQcJ_2wCgl_KmzNFo"};
+window.NEKOPLAY_CONFIG={SUPABASE_URL:"https://nbvekoygsnqrkwfjtmyc.supabase.co:"sb_publishable_OHfSqzNcjcKEbWKgOebCXg_0OeNWObw"};
