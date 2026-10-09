@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11111a">
+  <meta name="description" content="NekoPlay — catálogo de animações e animes com fontes de vídeo autorizadas.">
+  <title>NekoPlay — Anime e animação</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" id="homeLink" aria-label="NekoPlay início"><span class="brand-mark">猫</span><span>Neko<span class="accent">Play</span></span></a>
+    <nav class="nav-links" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#catalogo">Catálogo</a>
+      <button class="nav-button" id="favoritesNav">♡ Minha lista</button>
+    </nav>
+    <label class="search-wrap"><span class="sr-only">Buscar anime</span><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Buscar anime..." autocomplete="off"></label>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="dot"></span> SUA PRÓXIMA MARATONA</p>
+        <h1>Histórias que<br><span class="gradient-text">levam além.</span></h1>
+        <p class="hero-copy">Descubra novas animações, encontre sua próxima aventura e acompanhe tudo em um só lugar.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#catalogo">Explorar catálogo <span>→</span></a>
+          <button class="button button-ghost" id="randomButton">✦ Surpreenda-me</button>
+        </div>
+        <p class="hero-note">Protótipo demonstrativo · vídeos adicionados pelo administrador</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="hero-moon">☾</div>
+        <div class="hero-spark spark-a">✦</div><div class="hero-spark spark-b">✧</div>
+        <div class="hero-card"><span class="hero-card-kicker">DESCUBRA</span><strong>UM NOVO<br>MUNDO</strong><span class="hero-card-line"></span><small>Histórias para imaginar.</small></div>
+      </div>
+    </section>
+
+    <section class="content-section" id="catalogo">
+      <div class="section-heading">
+        <div><p class="eyebrow">ESCOLHA SUA AVENTURA</p><h2>Explorar catálogo</h2></div>
+        <span class="result-count" id="resultCount">Carregando títulos...</span>
+      </div>
+      <div class="filters" id="genreFilters" aria-label="Filtrar por gênero"></div>
+      <div class="catalog-grid" id="catalogGrid" aria-live="polite"></div>
+      <div class="empty-state hidden" id="emptyState"><span>⌕</span><h3>Nenhum título encontrado</h3><p>Tente outra busca ou escolha outro gênero.</p></div>
+    </section>
+
+    <section class="about-strip">
+      <div class="about-icon">▶</div>
+      <div><h3>Um catálogo, várias fontes autorizadas.</h3><p>Este projeto usa um player próprio para arquivos diretos autorizados e incorporações oficiais quando a plataforma permite.</p></div>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#"><span class="brand-mark">猫</span><span>Neko<span class="accent">Play</span></span></a><p>Protótipo independente. Não afiliado a estúdios ou distribuidoras.</p><p class="footer-small">Use apenas vídeos, capas e materiais que você tenha permissão para exibir.</p></footer>
+
+  <dialog id="detailsDialog" class="details-dialog">
+    <button class="dialog-close" data-close="detailsDialog" aria-label="Fechar">×</button>
+    <div id="detailsContent"></div>
+  </dialog>
+
+  <dialog id="playerDialog" class="player-dialog">
+    <button class="dialog-close player-close" data-close="playerDialog" aria-label="Fechar player">×</button>
+    <div id="playerContent"></div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>

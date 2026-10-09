@@ -1,0 +1,100 @@
+{
+  "site": {
+    "name": "NekoPlay",
+    "tagline": "Seu próximo mundo começa aqui.",
+    "description": "Protótipo de streaming com catálogo próprio e fontes de vídeo autorizadas."
+  },
+  "genres": [
+    "Todos",
+    "Aventura",
+    "Fantasia",
+    "Comédia",
+    "Ficção científica",
+    "Drama"
+  ],
+  "anime": [
+    {
+      "id": "aventura-estelar",
+      "title": "Aventura Estelar",
+      "year": 2025,
+      "status": "Em exibição",
+      "genres": [
+        "Aventura",
+        "Ficção científica"
+      ],
+      "rating": "Livre",
+      "episodesCount": 2,
+      "description": "Uma equipe de exploradores encontra um mapa que aponta para mundos desconhecidos. Este título é demonstrativo: substitua por uma obra que você tenha autorização para divulgar e exibir.",
+      "cover": "",
+      "banner": "",
+      "episodes": [
+        {
+          "number": 1,
+          "title": "O mapa brilhante",
+          "duration": "12 min",
+          "sourceType": "direct",
+          "sourceUrl": "",
+          "notes": "Adicione a URL HTTPS de um arquivo MP4/WebM que você tenha direito de transmitir."
+        },
+        {
+          "number": 2,
+          "title": "Sinal desconhecido",
+          "duration": "14 min",
+          "sourceType": "official",
+          "sourceUrl": "",
+          "notes": "Adicione um link de incorporação oficial permitido pela plataforma e pelo titular dos direitos."
+        }
+      ]
+    },
+    {
+      "id": "clube-dos-inventores",
+      "title": "Clube dos Inventores",
+      "year": 2024,
+      "status": "Completo",
+      "genres": [
+        "Comédia",
+        "Drama"
+      ],
+      "rating": "Livre",
+      "episodesCount": 1,
+      "description": "Um grupo de estudantes transforma ideias malucas em invenções inesperadas. Título fictício para demonstrar como cadastrar uma obra independente autorizada.",
+      "cover": "",
+      "banner": "",
+      "episodes": [
+        {
+          "number": 1,
+          "title": "A invenção número um",
+          "duration": "9 min",
+          "sourceType": "direct",
+          "sourceUrl": "",
+          "notes": "Adicione um arquivo direto autorizado ou deixe vazio até ter uma fonte legítima."
+        }
+      ]
+    },
+    {
+      "id": "jardim-das-luas",
+      "title": "Jardim das Luas",
+      "year": 2023,
+      "status": "Completo",
+      "genres": [
+        "Fantasia",
+        "Aventura"
+      ],
+      "rating": "Livre",
+      "episodesCount": 1,
+      "description": "Uma curta animação independente sobre uma aprendiz de jardineira e sementes que brilham à noite. Exemplo fictício; substitua por uma obra real com autorização.",
+      "cover": "",
+      "banner": "",
+      "episodes": [
+        {
+          "number": 1,
+          "title": "A primeira semente",
+          "duration": "7 min",
+          "sourceType": "direct",
+          "sourceUrl": "",
+          "notes": "Use somente uma fonte de vídeo autorizada."
+        }
+      ]
+    }
+  ]
+}
