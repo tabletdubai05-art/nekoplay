@@ -1,10 +1,10 @@
 {
-  "name": "Nome do Seu Site de Animes",
-  "short_name": "AnimeApp",
-  "start_url": "/",
+  "name": "NekoPlay — Seu espaço de animes",
+  "short_name": "NekoPlay",
+  "start_url": "catalog.html",
   "display": "standalone",
-  "background_color": "#121212",
-  "theme_color": "#ff0000",
+  "background_color": "#120f1d",
+  "theme_color": "#ff79c6",
   "orientation": "portrait-primary",
   "icons": [
     {
