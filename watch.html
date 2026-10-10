@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Assistir — NekoPlay</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="header"></div>
+  <main class="wrap" id="content"></main>
+  <footer>© NekoPlay</footer>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
+  <script src="common.js"></script>
+  <!-- O callback precisa existir antes de carregar o SDK do Google Cast. -->
+  <script>window.__onGCastApiAvailable = function(available) { if (available) window.dispatchEvent(new Event("google-cast-api-ready")); };</script>
+  <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
+  <script src="watch-page.js"></script>
+</body>
+</html>
