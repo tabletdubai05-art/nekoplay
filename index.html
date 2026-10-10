@@ -1,1 +1,62 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Entrar — NekoPlay</title><link rel="stylesheet" href="styles.css"></head><body><header class="top"><a class="brand" href="index.html">猫 Neko<b>Play</b></a><span style="margin-left:auto;color:var(--muted)">Seu espaço de animes</span></header><main class="wrap auth"><section><p class="eyebrow">ANIME · ANIMAÇÃO · DESCOBERTAS</p><h1>Histórias que<br><span style="color:var(--pink)">ficam com você.</span></h1><p class="muted">Entre para guardar os animes que você curte e acessar sua lista em outro momento.</p><div style="font-size:4rem;color:var(--purple)">✦ ☾ ✧</div></section><section class="auth-card"><h2 id="title">Boas-vindas!</h2><p class="muted" id="subtitle">Entre ou crie sua conta para salvar favoritos.</p><div class="tabs"><button class="tab active" id="loginTab">Entrar</button><button class="tab" id="signupTab">Criar conta</button></div><form id="form"><div class="field"><label for="email">E-mail</label><input id="email" type="email" autocomplete="email" required placeholder="voce@email.com"></div><div class="field"><label for="password">Senha (mínimo 6 caracteres)</label><input id="password" type="password" minlength="6" required autocomplete="current-password"></div><button class="btn primary" id="submit" style="width:100%">Entrar na minha conta →</button><p class="message" id="message" role="status"></p></form><p class="muted" style="font-size:.75rem">Confirmação por e-mail pode ser exigida pelas configurações do Supabase.</p></section></main><footer>© NekoPlay · Protótipo independente</footer><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script><script src="common.js"></script><script src="auth.js"></script></body></html>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Entrar — NekoPlay</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Configurações do PWA (App) -->
+    <link rel="manifest" href="/manifest.json">
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(reg => console.log('PWA do NekoPlay ativado com sucesso!', reg))
+            .catch(err => console.log('Erro ao ativar PWA:', err));
+        });
+      }
+    </script>
+</head>
+<body>
+    <header class="top">
+        <a class="brand" href="index.html">猫 Neko<b>Play</b></a>
+        <span style="margin-left:auto;color:var(--muted)">Seu espaço de animes</span>
+    </header>
+    <main class="wrap auth">
+        <section>
+            <p class="eyebrow">ANIME · ANIMAÇÃO · DESCOBERTAS</p>
+            <h1>Histórias que<br><span style="color:var(--pink)">ficam com você.</span></h1>
+            <p class="muted">Entre para guardar os animes que você curte e acessar sua lista em outro momento.</p>
+            <div style="font-size:4rem;color:var(--purple)">✦ ☾ ✧</div>
+        </section>
+        <section class="auth-card">
+            <h2 id="title">Boas-vindas!</h2>
+            <p class="muted" id="subtitle">Entre ou crie sua conta para salvar favoritos.</p>
+            <div class="tabs">
+                <button class="tab active" id="loginTab">Entrar</button>
+                <button class="tab" id="signupTab">Criar conta</button>
+            </div>
+            <form id="form">
+                <div class="field">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" autocomplete="email" required placeholder="voce@email.com">
+                </div>
+                <div class="field">
+                    <label for="password">Senha (mínimo 6 caracteres)</label>
+                    <input id="password" type="password" minlength="6" required autocomplete="current-password">
+                </div>
+                <button class="btn primary" id="submit" style="width:100%">Entrar na minha conta →</button>
+                <p class="message" id="message" role="status"></p>
+            </form>
+            <p class="muted" style="font-size:.75rem">Confirmação por e-mail pode ser exigida pelas configurações do Supabase.</p>
+        </section>
+    </main>
+    <footer>© NekoPlay · Protótipo independente</footer>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="config.js"></script>
+    <script src="common.js"></script>
+    <script src="auth.js"></script>
+</body>
+  </html>
+  
