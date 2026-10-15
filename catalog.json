@@ -1,199 +1,118 @@
-
 {
-  "genres": [
-    "Todos",
-    "Ação",
-    "Aventura",
-    "Fantasia",
-    "Comédia",
-    "Ficção científica",
-    "Drama"
-  ],
-  "anime": [
-    {
-      "id": "aventura-estelar",
-      "title": "Aventura Estelar",
-      "year": 2025,
-      "status": "Em exibição",
-      "genres": [
-        "Aventura",
-        "Ficção científica"
-      ],
-      "description": "Título demonstrativo do NekoPlay. Antes de publicar episódios, substitua por uma obra com licença ou autorização de exibição e configure as URLs HTTPS dos arquivos MP4/WebM.",
-      "symbol": "✦",
-      "episodes": [
-        {
-          "number": 1,
-          "title": "O mapa brilhante",
-          "duration": "A definir",
-          "sourceType": "direct",
-          "sourceUrl": ""
-        },
-        {
-          "number": 2,
-          "title": "Sinal desconhecido",
-          "duration": "A definir",
-          "sourceType": "direct",
-          "sourceUrl": ""
-        },
-        {
-          "number": 3,
-          "title": "Além do horizonte",
-          "duration": "A definir",
-          "sourceType": "direct",
-          "sourceUrl": ""
-        }
-      ],
-      "cover": "covers/aventura-estelar.svg"
-    },
-    {
-      "id": "clube-inventores",
-      "title": "Clube dos Inventores",
-      "year": 2024,
-      "status": "Completo",
-      "genres": [
-        "Comédia",
-        "Drama"
-      ],
-      "description": "Exemplo fictício para demonstrar o catálogo. Substitua por obra e vídeos autorizados antes de publicar.",
-      "symbol": "星",
-      "episodes": [
-        {
-          "number": 1,
-          "title": "A invenção número um",
-          "duration": "9 min",
-          "sourceType": "direct",
-          "sourceUrl": ""
-        }
-      ],
-      "cover": "covers/clube-inventores.svg"
-    },
-    {
-      "id": "jardim-luas",
-      "title": "Jardim das Luas",
-      "year": 2023,
-      "status": "Completo",
-      "genres": [
-        "Fantasia",
-        "Aventura"
-      ],
-      "description": "Exemplo fictício para demonstrar o catálogo. Adicione somente obras e vídeos autorizados.",
-      "symbol": "☾",
-      "episodes": [
-        {
-          "number": 1,
-          "title": "A primeira semente",
-          "duration": "7 min",
-          "sourceType": "direct",
-          "sourceUrl": ""
-        }
-      ],
-      "cover": "covers/jardim-luas.svg"
-    },
-    {
-      "id": "the-healer-who-was-banished",
-      "title": "The Healer Who Was Banished from His Party, Is, in Fact, the Strongest",
-      "year": 2025,
-      "status": "Completo",
-      "genres": [
-        "Ação",
-        "Aventura",
-        "Fantasia",
-        "Drama"
-      ],
-      "description": "Banido de seu grupo, o curandeiro Raust Narusena busca provar seu verdadeiro potencial e descobrir sua força ao lado de novos companheiros.",
-      "symbol": "✚",
-      "episodes": [
-        {
-          "number": 1,
-          "title": "Episódio 1",
-          "duration": "A definir",
-          "sourceType": "direct",
-          "sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792096154/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest_-_1.mp4",
-          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.1.pt-br.vtt"
-        },
-        {
-          "number": 2,
-          "title": "Episódio 2",
-          "duration": "A definir",
-          "sourceType": "direct",
-          "sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792095922/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest_-_2.mp4",
-          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.2.pt-br.vtt"
-        },
-        {
-          "number": 3,
-          "title": "Episódio 3",
-          "duration": "A definir",
-          "sourceType": "direct",
-          "sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792095810/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest_-_3.mp4",
-          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.3.pt-br.vtt"
-        },
-        {
-          "number": 4,
-          "title": "Episódio 4",
-          "duration": "A definir",
-          "sourceType": "direct",
-          "sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792095710/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest_-_4.mp4",
-          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.4.pt-br.vtt"
-        },
-        {
-          "number": 5,
-          "title": "Episódio 5",
-          "duration": "A definir",
-          "sourceType": "direct",
-          "sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792095612/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest_-_5.mp4",
-          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.5.pt-br.vtt"
-        },
-        {
-          "number": 6,
-          "title": "Episódio 6",
-          "duration": "A definir",
-          "sourceType": "direct",
-          "sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792097898/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest_-_6.mp4",
-          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.6.pt-br.vtt"
-        },
-        {
-          "number": 7,
-          "title": "Episódio 7",
-          "duration": "A definir",
-          "sourceType": "direct",
-          "sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792095453/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest_-_7.mp4",
-          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.7.pt-br.vtt"
-        },
-        {
-          "number": 8,
-          "title": "Episódio 8",
-          "duration": "A definir",
-          "sourceType": "direct",
-          "sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792095389/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest_-_8.mp4",
-          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.8.pt-br.vtt"
-        },
-        {
-          "number": 9,
-          "title": "Episódio 9",
-          "duration": "A definir",
-          "sourceType": "direct",
-          "sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792095105/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest_-_9.mp4",
-          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.9.pt-br.vtt"
-        },
-        {
-          "number": 10,
-          "title": "Episódio 10",
-          "duration": "A definir",
-          "sourceType": "direct",
-          "sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792096059/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest_-_10.mp4",
-          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.10.pt-br.vtt"
-        },
-        {
-          "number": 11,
-          "title": "Episódio 11",
-          "duration": "A definir",
-          "sourceType": "direct",
-          "sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792097963/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest_-_11.mp4",
-          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.11.pt-br.vtt"
-        }
-      ],
-      "cover": "covers/the-healer-who-was-banished.jpg"
-    }
-  ]
-        }
+"genres": [
+"Todos",
+"Ação",
+"Aventura",
+"Fantasia",
+"Comédia",
+"Ficção científica",
+"Drama"
+],
+"anime": [
+{
+"id": "the-healer-who-was-banished",
+"title": "The Healer Who Was Banished from His Party, Is, in Fact, the Strongest",
+"year": 2025,
+"status": "Completo",
+"genres": [
+"Ação",
+"Aventura",
+"Fantasia",
+"Drama"
+],
+"description": "Banido de seu grupo, o curandeiro Raust Narusena busca provar seu verdadeiro potencial e descobrir sua força ao lado de novos companheiros.",
+"symbol": "✚",
+"episodes": [
+{
+"number": 1,
+"title": "Episódio 1",
+"duration": "A definir",
+"sourceType": "direct",
+"sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792096154/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest_-1.mp4",
+"subtitleUrl": "Anime subtitles/ The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.1.pt-br.vtt"
+},
+{
+"number": 2,
+"title": "Episódio 2",
+"duration": "A definir",
+"sourceType": "direct",
+"sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792095922/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest-2.mp4",
+"subtitleUrl": "Anime subtitles/ The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.2.pt-br.vtt"
+},
+{
+"number": 3,
+"title": "Episódio 3",
+"duration": "A definir",
+"sourceType": "direct",
+"sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792095810/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest-3.mp4",
+"subtitleUrl": "Anime subtitles/ The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.3.pt-br.vtt"
+},
+{
+"number": 4,
+"title": "Episódio 4",
+"duration": "A definir",
+"sourceType": "direct",
+"sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792095710/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest-4.mp4",
+"subtitleUrl": "Anime subtitles/ The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.4.pt-br.vtt"
+},
+{
+"number": 5,
+"title": "Episódio 5",
+"duration": "A definir",
+"sourceType": "direct",
+"sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792095612/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest-5.mp4",
+"subtitleUrl": "Anime subtitles/ The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.5.pt-br.vtt"
+},
+{
+"number": 6,
+"title": "Episódio 6",
+"duration": "A definir",
+"sourceType": "direct",
+"sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792097898/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest-6.mp4",
+"subtitleUrl": "Anime subtitles/ The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.6.pt-br.vtt"
+},
+{
+"number": 7,
+"title": "Episódio 7",
+"duration": "A definir",
+"sourceType": "direct",
+"sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792095453/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest-7.mp4",
+"subtitleUrl": "Anime subtitles/ The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.7.pt-br.vtt"
+},
+{
+"number": 8,
+"title": "Episódio 8",
+"duration": "A definir",
+"sourceType": "direct",
+"sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792095389/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest-8.mp4",
+"subtitleUrl": "Anime subtitles/ The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.8.pt-br.vtt"
+},
+{
+"number": 9,
+"title": "Episódio 9",
+"duration": "A definir",
+"sourceType": "direct",
+"sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792095105/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest-9.mp4",
+"subtitleUrl": "Anime subtitles/ The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.9.pt-br.vtt"
+},
+{
+"number": 10,
+"title": "Episódio 10",
+"duration": "A definir",
+"sourceType": "direct",
+"sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792096059/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest-10.mp4",
+"subtitleUrl": "Anime subtitles/ The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.10.pt-br.vtt"
+},
+{
+"number": 11,
+"title": "Episódio 11",
+"duration": "A definir",
+"sourceType": "direct",
+"sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1792097963/Portugu%C3%AAs_Legendas_The_Healer_Who_Was_Banished_From_His_Party_Is_in_Fact_the_Strongest-_11.mp4",
+"subtitleUrl": "Anime subtitles/ The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.11.pt-br.vtt"
+}
+],
+"cover": "covers/the-healer-who-was-banished.jpg"
+}
+]
+}
