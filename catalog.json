@@ -89,6 +89,111 @@
         }
       ],
       "cover": "covers/jardim-luas.svg"
+    },
+    {
+      "id": "the-healer-who-was-banished",
+      "title": "The Healer Who Was Banished from His Party, Is, in Fact, the Strongest",
+      "year": 2025,
+      "status": "Completo",
+      "genres": [
+        "Ação",
+        "Aventura",
+        "Fantasia",
+        "Drama"
+      ],
+      "description": "Banido de seu grupo, o curandeiro Raust Narusena busca provar seu verdadeiro potencial e descobrir sua força ao lado de novos companheiros.",
+      "symbol": "✚",
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Episódio 1",
+          "duration": "A definir",
+          "sourceType": "direct",
+          "sourceUrl": "",
+          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.1.pt-br.vtt"
+        },
+        {
+          "number": 2,
+          "title": "Episódio 2",
+          "duration": "A definir",
+          "sourceType": "direct",
+          "sourceUrl": "",
+          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.2.pt-br.vtt"
+        },
+        {
+          "number": 3,
+          "title": "Episódio 3",
+          "duration": "A definir",
+          "sourceType": "direct",
+          "sourceUrl": "",
+          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.3.pt-br.vtt"
+        },
+        {
+          "number": 4,
+          "title": "Episódio 4",
+          "duration": "A definir",
+          "sourceType": "direct",
+          "sourceUrl": "",
+          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.4.pt-br.vtt"
+        },
+        {
+          "number": 5,
+          "title": "Episódio 5",
+          "duration": "A definir",
+          "sourceType": "direct",
+          "sourceUrl": "",
+          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.5.pt-br.vtt"
+        },
+        {
+          "number": 6,
+          "title": "Episódio 6",
+          "duration": "A definir",
+          "sourceType": "direct",
+          "sourceUrl": "",
+          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.6.pt-br.vtt"
+        },
+        {
+          "number": 7,
+          "title": "Episódio 7",
+          "duration": "A definir",
+          "sourceType": "direct",
+          "sourceUrl": "",
+          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.7.pt-br.vtt"
+        },
+        {
+          "number": 8,
+          "title": "Episódio 8",
+          "duration": "A definir",
+          "sourceType": "direct",
+          "sourceUrl": "",
+          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.8.pt-br.vtt"
+        },
+        {
+          "number": 9,
+          "title": "Episódio 9",
+          "duration": "A definir",
+          "sourceType": "direct",
+          "sourceUrl": "",
+          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.9.pt-br.vtt"
+        },
+        {
+          "number": 10,
+          "title": "Episódio 10",
+          "duration": "A definir",
+          "sourceType": "direct",
+          "sourceUrl": "",
+          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.10.pt-br.vtt"
+        },
+        {
+          "number": 11,
+          "title": "Episódio 11",
+          "duration": "A definir",
+          "sourceType": "direct",
+          "sourceUrl": "",
+          "subtitleUrl": "Anime subtitles/The Healer Who Was Banished from His Party, Is, in Fact, the Strongest/temporada.1.episodio.11.pt-br.vtt"
+        }
+      ],
+      "cover": "covers/the-healer-who-was-banished.svg"
     }
   ]
-}
+        }
